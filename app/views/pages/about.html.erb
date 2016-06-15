@@ -1,1 +1,25 @@
-<h2>About</h2>
+<!DOCTYPE html>
+<html>
+  <head>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+       $("div.hidden").fadeIn(1500).removeClass("hidden");
+      });
+    </script>
+  </head>
+  <body>
+    <div class="hidden">
+    <div class="jumbotron" id="jumboabout">
+      <h2>About Me</h2>
+        <p>During my free time I enjoy outdoor activites including baseball, snowboarding, and trail running.</p>
+        <p>On my hikes through urban and rural areas, I try to appreciate my surroundings, and capture these moments in my photos. You can view my photographs and online gallery by clicking <a href="http://dejatrue.tumblr.com/" target="_blank">here</a>.</p>
+      <div class="aboutbutton">
+        <button id="aboutbutton">
+          <%= link_to 'Learn About My Projects & Skills', project_path, class: 'btn btn-secondary'%>
+        </button>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>

@@ -1,1 +1,25 @@
-<h2>Home</h2>
+<!doctype html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+       $("div.hidden").fadeIn(3000).removeClass("hidden");
+      });
+  </script>
+</head>
+<body>
+  <div class="hidden">
+  <div class="jumbotron" id="jumbohome">
+    <h2 id=homeheader>Welcome</h2>
+    <p id="homep">Hello! My name is T.K. Marks, and I am a freelance web developer.</p>
+    <button>
+      <%= link_to 'Learn More', about_path, class: 'btn btn-secondary'%>
+    </button>
+    <!-- class="btn btn-default" type="button" -->
+  </div>
+  </div>
+  <footer>
+  </footer>
+</body>
+</html>

@@ -6,12 +6,69 @@ body {
   font-family: sans-serif;
   font-size: 15px;
   line-height: 1.42857143;
-  color: #ebebeb;
-  background-color: #2b3e50;
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-  background-image: url(http://67.media.tumblr.com/625f7006a542f67295fe5c990e9a854c/tumblr_nl0yfzKuWZ1tkvuauo1_1280.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  height: 800px;
   background-size: cover;
+}
+#jumbohome{
+  background-size: cover;
+  background-color:#7c7c7c;
+  text-align: center;
+  background-position: center;
+  padding-top:2%;
+  padding-bottom:100px;
+  margin-top: 15%;
+  height: 200px;
+}
+
+#homeheader {
+  color:white;
+}
+
+#homep {
+  color:white;
+}
+
+#aboutlist{
+  position:relative;
+  display:block;
+  color:white;
+}
+
+#jumboabout {
+  background-size: cover;
+  background-color:#7c7c7c;
+  background-position: center;
+  padding-top:2%;
+  padding-bottom:100px;
+  margin-top: 15%;
+  color:white;
+}
+
+.aboutbutton {
+  text-align:center;
+}
+
+#hidden{
+  display:none;
+}
+
+#hidden2{
+  display:none;
+}
+
+#jumboprofile {
+  background-size: relative;
+  background-color:#7c7c7c;
+  background-position: center;
+  padding-top:10px;
+  padding-bottom:40px;
+  margin-top: 2%;
+  color:white;
+  font-size: 1em;
+}
+
+#paraprofile{
+  font-size: 1em;
 }

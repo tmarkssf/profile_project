@@ -1,3 +1,42 @@
+<!doctype html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+       $("div.hidden").fadeIn(1500).removeClass("hidden");
+       $("div.hidden2").fadeIn(2000).removeClass("hidden2");
+      });
+    </script>
+</head>
 <body>
-  <h2>Projects and Profile<h2>
+    <div class="hidden">
+      <div class="jumbotron" id="jumboprofile">
+        <div class="hidden2">
+        <h2>Profile & Projects</h2>
+          <h4>Summary</h4>
+          <p id="paraprofile">Self taught Web Developer, experienced analyst, and account manager. Proven track record of meeting deadlines, creative problem solving, and achieving client desired results. Currently exploring opportunities in Product Management and Ownership,  as well as Web Developer roles. Available for hire as a freelance web developer and designer.</p>
+        <h4>Highlights</h4>
+        <ul>
+          <li>Working knowledge of Ruby on Rails, jQuery, CSS, HMTL, and SQL</li>
+          <li>Advanced Excel and VBA skills</li>
+          <li>Google Adwords Certified</li>
+          <li>Bing Ads Certified</li>
+          <li>Google Analytics Certified</li>
+          <li>Paid Search & Digital Marketing experience</li>
+        </ul>
+        <h4>Education & Training</h4>
+        <p id="paraprofile">San Francisco State University</p>
+        <ul>
+          <li>Bachelor of Arts Biology</li>
+        </ul>
+        <p id="paraprofile">Coder Manual: Interactive Coding Boot Camp</p>
+        <div class="aboutbutton">
+        <button id="aboutbutton">
+          <%= link_to "Let's Talk", new_contact_path, class: 'btn btn-secondary'%>
+        </button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+</html>
