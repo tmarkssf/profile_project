@@ -5,11 +5,21 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <meta name= "viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <nav class="navbar navbar">
     <div class="container">
       <div class="navbar-header">
+        <a href="http://dejatrue.tumblr.com/">
+          <i class="fa fa-tumblr-square navbar-brand" id="linked"></i>
+        </a>
+        <a href="https://twitter.com/takezomarks">
+          <i class="fa fa-twitter-square navbar-brand" id="linked"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/tkmarks">
+          <i class="fa fa-linkedin-square navbar-brand" id="linked"></i>
+        </a>
         <a <%= link_to 'T.K. Marks', root_path, class:"navbar-brand" %>
         <button id="navbar-button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1">
           <span class="sr-only">Toggle navigation</span>
@@ -27,7 +37,7 @@
             <%= link_to 'Projects & Skills', project_path, class: 'presentation' %>
           </li>
           <li role="presentation">
-            <li><%= link_to "Let's Talk", new_contact_path, class:'presentation' %></li>
+            <li><%= link_to "Let's Talk", new_contact_path, class:'presentation'%></li>
           </li>
           <li class="active" role="presentation">
             <%= link_to 'Home', root_path, class: 'presentation' %>
