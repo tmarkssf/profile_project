@@ -16,6 +16,8 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 body {
   font-family: sans-serif;
@@ -26,6 +28,10 @@ body {
   background-position: center;
   height: 800px;
   background-image: url(http://67.media.tumblr.com/625f7006a542f67295fe5c990e9a854c/tumblr_nl0yfzKuWZ1tkvuauo1_1280.jpg)
+}
+
+#navbar-header{
+  float:left;
 }
 
 .navbar-brand{
@@ -43,12 +49,22 @@ body {
 
 .btn {
   font-size: 14px;
-  padding: 20px;
+  padding: 18px;
+  width:150px;
 }
 
 .btn:hover{
   transition-duration:0.3s;
   color:#7c7c7c;
+}
+#linked:hover{
+  transition-duration:0.3s;
+  color:white;
+  opacity: 0.4;
+}
+
+#linked{
+  font-size:20px;
 }
 
 
