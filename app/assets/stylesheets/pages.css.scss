@@ -47,7 +47,7 @@ body {
   color:white;
 }
 
-#jumboabout {
+#jumboabout{
   background-size: cover;
   background-color:#7c7c7c;
   background-position: center;
@@ -60,7 +60,7 @@ body {
 }
 
 .aboutbutton {
-  text-align:center;
+  text-align: center;
 }
 
 #hidden{
@@ -71,12 +71,13 @@ body {
   display:none;
 }
 
-#jumboprofile {
-  background-size: relative;
+#jumboprofile{
+  background-size: cover;
   background-color:#7c7c7c;
   background-position: center;
   padding-top:10px;
   padding-bottom:40px;
+  height: 550px;
   margin-top: 2%;
   color:white;
   font-size: 1em;
